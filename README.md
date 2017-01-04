@@ -10,9 +10,8 @@ Files,
 Top module: tbbm.sv     
 NOC interface: nocif.sv    
 CRC interface: crcif.sv     
-NOC Design module: noc.sv     
-CRC design module: crc.sv     
-Bus Master Design module: bm.sv     
+Bus Master Design module: bm.sv          
+CRC design module: crc.sv         
 Simulation script: ./sv_uvm tbbm.sv     
 Synthesis script: ./sss & synthesis.script     
 Simulation result: finalresult_bm.txt     
